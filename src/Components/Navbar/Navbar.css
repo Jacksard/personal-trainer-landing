@@ -16,6 +16,8 @@
 .navbar-options-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  align-self: center;
+  justify-self: end !important;
 }
 
 .navbar-logo {
@@ -26,6 +28,7 @@
 
 @media only screen and (max-width: 600px) {
   .navbar-options-container {
+    justify-self: start !important;
     font-size: 14px;
   }
   .navbar-logo {

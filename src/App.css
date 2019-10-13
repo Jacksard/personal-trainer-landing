@@ -31,7 +31,14 @@ body {
 
 .content {
   text-align: center;
+  width: 80vmax;
+  margin: auto;
 }
 
 @media only screen and (max-width: 411px) {
+  .content {
+    text-align: center;
+    width: 60vmax;
+    margin: auto;
+  }
 }

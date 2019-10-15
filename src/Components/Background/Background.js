@@ -13,3 +13,9 @@ const Background = () => {
 };
 
 export default Background;
+
+{
+  /* <video id='background-video' playsInline muted autoPlay>
+        <source src={Video} type='video/mp4' />
+      </video>; */
+}

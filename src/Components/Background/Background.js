@@ -4,7 +4,7 @@ import './Background.css';
 
 const Background = () => {
   return (
-    <div>
+    <div className='video'>
       <video id='background-video' playsInline muted autoPlay>
         <source src={Video} type='video/mp4' />
       </video>

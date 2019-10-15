@@ -45,3 +45,21 @@
     color: white;
   }
 }
+@media only screen and (max-width: 411px) {
+  .navbar-container {
+    width: 90vmin;
+    min-width: 100% -1px;
+    /* border: 1px yellow solid; */
+    align-items: center;
+  }
+
+  .navbar-options-container {
+    justify-self: end !important;
+    font-size: 12px;
+  }
+  .navbar-logo {
+    width: 30px;
+    height: 30px;
+    color: white;
+  }
+}

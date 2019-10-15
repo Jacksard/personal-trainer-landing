@@ -3,6 +3,7 @@ body {
   font-family: 'Prompt', sans-serif;
   animation: fadein;
   animation-duration: 1.1s;
+  background-color: #000;
 }
 
 @keyframes fadein {
@@ -26,6 +27,7 @@ body {
   right: 0;
   bottom: 0;
   background-color: rgba(6, 5, 15, 0.6);
+  animation: fadein;
   color: white;
 }
 
@@ -35,6 +37,13 @@ body {
   margin: auto;
 }
 
+@media only screen and (max-width: 1024px) {
+  .content {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+}
 @media only screen and (max-width: 900px) {
   .content {
     text-align: center;

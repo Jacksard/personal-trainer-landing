@@ -76,40 +76,29 @@
     height: auto;
   }
   .intro-heading-lets {
-    vertical-align: middle;
-    margin: 0;
     font-size: 35px;
   }
   .intro-heading-do {
-    padding: 0 !important;
-    margin: 0;
     font-size: 35px;
   }
   .intro-heading-this {
-    padding: 0 !important;
-    margin: 0;
     font-size: 35px;
   }
 }
+
 @media only screen and (max-width: 1024px) {
   .grid-container > div {
     width: 100px;
-
-    margin: 0;
   }
   .intro-heading-lets {
     vertical-align: middle;
-    margin: 0;
+
     font-size: 35px;
   }
   .intro-heading-do {
-    padding: 0 !important;
-    margin: 0;
     font-size: 35px;
   }
   .intro-heading-this {
-    padding: 0 !important;
-    margin: 0;
     font-size: 35px;
   }
 }

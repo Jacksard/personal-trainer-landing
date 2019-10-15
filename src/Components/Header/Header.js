@@ -6,19 +6,7 @@ const Header = () => {
     <div className='header'>
       <div className='grid-container'>
         <div>
-          <p className='intro-heading'>LETS</p>
-        </div>
-        <div>
-          <p className='intro-heading-lead'></p>
-        </div>
-        <div>
-          <p className='intro-heading'></p>
-        </div>
-        <div>
-          <p className='intro-heading'></p>
-        </div>
-        <div>
-          <p className='intro-heading'>DO</p>
+          <p className='intro-heading-lets'>LETS</p>
         </div>
         <div>
           <p className='intro-heading'></p>
@@ -30,7 +18,19 @@ const Header = () => {
           <p className='intro-heading'></p>
         </div>
         <div>
-          <p className='intro-heading'>THIS</p>
+          <p className='intro-heading-do'>DO</p>
+        </div>
+        <div>
+          <p className='intro-heading'></p>
+        </div>
+        <div>
+          <p className='intro-heading'></p>
+        </div>
+        <div>
+          <p className='intro-heading'></p>
+        </div>
+        <div>
+          <p className='intro-heading-this'>THIS</p>
         </div>
       </div>
     </div>

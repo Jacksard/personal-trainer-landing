@@ -1,0 +1,16 @@
+.grid-section-one {
+  border: 1px white solid;
+  text-align: center;
+  width: auto;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
+  align-items: stretch;
+  grid-gap: 1em !important;
+  padding: 10px;
+}
+
+.grid-section-one > div {
+  border: 1px #fff solid;
+}

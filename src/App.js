@@ -9,6 +9,9 @@ import Background from './Components/Background/Background';
 // Header Component
 import Header from './Components/Header/Header';
 
+// Presentation Component
+import Presentation from './Components/Presentation/Presentation';
+
 function App() {
   return (
     <div className='App'>
@@ -17,7 +20,7 @@ function App() {
         <div className='content'>
           <Navbar />
           <Header />
-          presentation
+          <Presentation />
         </div>
       </div>
     </div>

@@ -9,7 +9,7 @@
 }
 
 .video {
-  animation: opacityOn 3s ease forwards;
+  animation: opacityOn 0s ease forwards;
 }
 @keyframes opacityOn {
   0% {

@@ -17,44 +17,51 @@
 
 .grid-container {
   display: grid;
-  width: 600px;
   height: auto;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  grid-gap: 0.4em;
+  justify-items: stretch;
+  align-items: stretch;
 }
 
 .grid-container > div {
   width: 200px;
   height: 100px;
-  align-self: center !important;
-  justify-self: center !important;
   margin: 0;
-}
-
-.grid-item {
-  margin: 0;
-
-  align-self: center !important;
-  justify-self: center !important;
+  justify-self: center;
+  align-self: center;
+  height: auto;
 }
 
 .intro-heading-lets {
+  border: 1px solid #fff;
+  margin: 0;
   padding: 0;
   font-size: 50px;
   animation: opacityOn 2s ease forwards;
   animation-timing-function: linear;
 }
 .intro-heading-do {
+  border: 1px solid #fff;
+  margin: 0;
   padding: 0;
   font-size: 50px;
   animation: opacityOn;
   animation: opacityOn 2.5s ease forwards;
 }
 .intro-heading-this {
+  border: 1px solid #fff;
+  margin: 0;
   padding: 0;
   font-size: 50px;
   animation: opacityOn;
   animation: opacityOn 3s ease forwards;
+}
+
+.grid-item {
+  height: 100% !important;
+  width: 100%;
 }
 
 @keyframes opacityOn {
@@ -70,11 +77,7 @@
   }
 }
 
-@media only screen and (max-width: 1200px) {
-  .grid-container > div {
-    width: 100px;
-    height: auto;
-  }
+@media only screen and (min-width: 1300px) {
   .intro-heading-lets {
     font-size: 35px;
   }
@@ -88,11 +91,12 @@
 
 @media only screen and (max-width: 1024px) {
   .grid-container > div {
-    width: 100px;
+    width: 150px;
+    justify-self: center;
+    align-self: center;
+    height: auto;
   }
   .intro-heading-lets {
-    vertical-align: middle;
-
     font-size: 35px;
   }
   .intro-heading-do {
@@ -103,43 +107,59 @@
   }
 }
 @media only screen and (max-width: 712px) {
-  .grid-container {
-    width: 400px !important;
+  .grid-container > div {
+    width: 125px;
   }
   .intro-heading-lets {
-    padding: 0 !important;
-    margin: 0;
     font-size: 25px;
   }
   .intro-heading-do {
-    padding: 0 !important;
-    margin: 0;
     font-size: 25px;
   }
   .intro-heading-this {
-    padding: 0 !important;
-    margin: 0;
     font-size: 25px;
   }
 }
 @media only screen and (max-width: 648px) {
+  .grid-container > div {
+    width: 115px;
+  }
+
+  .grid-container {
+    width: 100%;
+  }
   .intro-heading-lets {
-    padding: 0 !important;
-    margin: 0;
-    font-size: 35px;
+    font-size: 25px;
   }
   .intro-heading-do {
-    padding: 0 !important;
-    margin: 0;
-    font-size: 35px;
+    font-size: 25px;
   }
   .intro-heading-this {
-    padding: 0 !important;
-    margin: 0;
-    font-size: 35px;
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 512px) {
+  .grid-container > div {
+    width: 100px;
+  }
+
+  .grid-container {
+    width: 100%;
+  }
+  .intro-heading-lets {
+    font-size: 25px;
+  }
+  .intro-heading-do {
+    font-size: 25px;
+  }
+  .intro-heading-this {
+    font-size: 25px;
   }
 }
 @media only screen and (max-width: 411px) {
+  .grid-container > div {
+    width: 90px;
+  }
   .intro-heading-lets {
     padding: 0 !important;
     margin: 0;

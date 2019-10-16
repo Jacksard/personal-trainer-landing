@@ -5,12 +5,12 @@
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
-  animation: fadein;
+
   animation-duration: 1.1s;
 }
 
 .video {
-  animation: opacityOn 4s ease forwards;
+  animation: opacityOn 3s ease forwards;
 }
 @keyframes opacityOn {
   0% {

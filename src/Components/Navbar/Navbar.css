@@ -1,10 +1,12 @@
 .navbar-container {
   display: grid;
+  width: 1000px;
   grid-template-columns: 1fr 3fr;
   grid-auto-rows: minmax(60px, auto);
-  min-width: 100% -1px;
-  /* border: 1px yellow solid; */
   align-items: center;
+  text-align: center !important;
+  background-color: rgba(0, 0, 0, 0.788);
+  width: 100%;
 }
 
 .navbar-container > div {
@@ -18,7 +20,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   align-self: center;
   justify-self: end !important;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 .navbar-logo {
@@ -29,9 +31,7 @@
 
 @media only screen and (max-width: 600px) {
   .navbar-container {
-    width: 90vmin;
     min-width: 100% -1px;
-    /* border: 1px yellow solid; */
     align-items: center;
   }
 
@@ -47,9 +47,7 @@
 }
 @media only screen and (max-width: 411px) {
   .navbar-container {
-    width: 90vmin;
     min-width: 100% -1px;
-    /* border: 1px yellow solid; */
     align-items: center;
   }
 

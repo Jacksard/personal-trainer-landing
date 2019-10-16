@@ -32,42 +32,19 @@ body {
 }
 
 .content {
-  text-align: center;
-  width: 80vmax;
   margin: auto;
+  text-align: center;
 }
 
+@media only screen and (min-width: 1212px) {
+}
 @media only screen and (max-width: 1024px) {
-  .content {
-    text-align: center;
-    width: 100%;
-    margin: auto;
-  }
 }
 @media only screen and (max-width: 900px) {
-  .content {
-    text-align: center;
-    width: 100%;
-    margin: auto;
-  }
 }
 @media only screen and (max-width: 712px) {
-  .content {
-    text-align: center;
-    width: 100%;
-    margin: auto;
-  }
 }
 @media only screen and (max-width: 648px) {
-  .content {
-    text-align: center;
-    margin: auto;
-  }
 }
 @media only screen and (max-width: 411px) {
-  .content {
-    text-align: center;
-    width: auto;
-    margin: auto;
-  }
 }

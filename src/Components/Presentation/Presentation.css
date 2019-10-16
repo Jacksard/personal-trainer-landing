@@ -1,10 +1,13 @@
 .grid-section-one {
   border: 1px white solid;
   text-align: center;
-  width: auto;
-  height: 400px;
+  width: 70%;
+  margin: auto;
+  height: 900px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: minmax(400px, auto);
+
   justify-items: stretch;
   align-items: stretch;
   grid-gap: 1em !important;
@@ -13,4 +16,10 @@
 
 .grid-section-one > div {
   border: 1px #fff solid;
+  display: relative;
+}
+
+.img1 {
+  width: 700px;
+  transform: scale(1.3);
 }

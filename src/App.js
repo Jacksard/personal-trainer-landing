@@ -20,7 +20,9 @@ function App() {
         <div className='content'>
           <Navbar />
           <Header />
-          <Presentation />
+          <div className='presentation'>
+            <Presentation />
+          </div>
         </div>
       </div>
     </div>

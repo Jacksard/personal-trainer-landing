@@ -1,4 +1,6 @@
 .navbar-container {
+  position: fixed;
+  top: 0;
   margin-bottom: 20px;
   display: grid;
   width: 1000px;
@@ -6,8 +8,10 @@
   grid-auto-rows: minmax(60px, auto);
   align-items: center;
   text-align: center !important;
-  background-color: rgba(0, 0, 0, 0.788);
+  background-color: rgba(0, 0, 0, 1);
   width: 100%;
+  z-index: 1000;
+  border-bottom: 1px #fff solid;
 }
 
 .navbar-container > div {

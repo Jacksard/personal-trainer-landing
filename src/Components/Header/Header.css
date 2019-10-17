@@ -1,5 +1,5 @@
 .header {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .header .grid-container {
   margin: auto;
@@ -38,7 +38,6 @@
 }
 
 .intro-heading-lets {
-  border: 1px solid #fff;
   margin: 0;
   padding: 0;
   font-size: 50px;
@@ -46,7 +45,6 @@
   animation-timing-function: linear;
 }
 .intro-heading-do {
-  border: 1px solid #fff;
   margin: 0;
   padding: 0;
   font-size: 50px;
@@ -54,7 +52,6 @@
   animation: opacityOn 2.5s ease forwards;
 }
 .intro-heading-this {
-  border: 1px solid #fff;
   margin: 0;
   padding: 0;
   font-size: 50px;
@@ -110,9 +107,6 @@
   }
 }
 @media only screen and (max-width: 712px) {
-  .grid-container > div {
-    width: 125px;
-  }
   .intro-heading-lets {
     font-size: 25px;
   }
@@ -122,14 +116,19 @@
   .intro-heading-this {
     font-size: 25px;
   }
+  .grid-container {
+    width: 100%;
+    overflow: scroll;
+  }
 }
 @media only screen and (max-width: 648px) {
-  .grid-container > div {
+  s .grid-container > div {
     width: 115px;
   }
 
   .grid-container {
     width: 100%;
+    overflow: scroll;
   }
   .intro-heading-lets {
     font-size: 25px;
@@ -145,7 +144,6 @@
   .grid-container > div {
     width: 100px;
   }
-
   .grid-container {
     width: 100%;
   }

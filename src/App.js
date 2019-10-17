@@ -19,7 +19,9 @@ function App() {
       <div className='overlay'>
         <div className='content'>
           <Navbar />
-          <Header />
+          <div className='header'>
+            <Header />
+          </div>
           <div className='presentation'>
             <Presentation />
           </div>

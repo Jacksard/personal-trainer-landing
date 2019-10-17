@@ -35,7 +35,16 @@ body {
 }
 
 .content {
-  margin: auto;
+  text-align: center;
+
+  overflow: visible;
+}
+
+.header {
+  margin-top: 80px;
+}
+
+.presentation {
   text-align: center;
 }
 

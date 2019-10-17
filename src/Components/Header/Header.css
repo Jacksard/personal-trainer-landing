@@ -118,7 +118,6 @@
   }
   .grid-container {
     width: 100%;
-    overflow: scroll;
   }
 }
 @media only screen and (max-width: 648px) {
@@ -128,7 +127,6 @@
 
   .grid-container {
     width: 100%;
-    overflow: scroll;
   }
   .intro-heading-lets {
     font-size: 25px;

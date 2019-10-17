@@ -53,12 +53,12 @@
   align-items: stretch;
 }
 .p2-img {
-  grid-column: 2/4;
+  grid-column: 1/3;
   grid-row: 1/2;
 }
 .p2-desc {
   background-color: rgba(0, 0, 0, 0.582);
-  grid-column: 1/3;
+  grid-column: 2/4;
   grid-row: 1/2;
   position: relative;
   justify-self: center;
@@ -187,7 +187,7 @@
     grid-column: 1/4;
     grid-row: 1/2;
   }
-  .p2-desc {
+  .p1-desc {
     grid-column: 1/4;
     width: 80%;
   }

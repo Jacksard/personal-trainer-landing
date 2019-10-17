@@ -22,7 +22,7 @@ body {
   right: 0;
   bottom: 0;
   min-width: 100%;
-  min-height: 1450px;
+  min-height: 2000px;
   background-size: cover;
   top: 0;
   left: 0;
@@ -31,13 +31,10 @@ body {
   background-color: rgba(6, 5, 15, 0.6);
   animation: fadein;
   color: white;
-  overflow: hidden;
 }
 
 .content {
   text-align: center;
-
-  overflow: visible;
 }
 
 .header {
